@@ -1,0 +1,19 @@
+{
+    "SubdomainLookup":[
+        {
+            "api_name":"https://crt.sh/?q={domainName}&output=json",
+            "use_api":"True",
+            "api_key":"None"
+        }
+    ],
+
+    "IPFinder":[],
+
+    "IPAnalyser":[
+        {
+            "api_name":"https://internetdb.shodan.io/{ip}",
+            "use_api":"True",
+            "api_key":"None"
+        }
+    ]
+}
