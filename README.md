@@ -22,8 +22,8 @@ A lightweight Python-based reconnaissance tool that discovers subdomains, resolv
 ## Installation
 
 ```bash
-git clone https://github.com/<your-username>/argus.git
-cd argus
+git clone https://github.com/Zax1s/ARGUS
+cd ARGUS
 pip install -r requirements.txt
 ```
 
