@@ -32,7 +32,10 @@ def main():
             continue
         for j in range(len(IPSmallList)):
             if IPSmallList[j] not in IPList:
-                IPList.append(IPSmallList[j])
+                if ":" in IPSmallList[j]:
+                    print(f"IPv6 found: {IPSmallList[j]}")
+                else:
+                    IPList.append(IPSmallList[j])
 
     IPList = sorted(IPList, key=ipaddress.ip_address)
 
